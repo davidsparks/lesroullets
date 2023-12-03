@@ -1,0 +1,10 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --side-padding: 94px
+}
+
+
+body {
+    margin: 0;
+}
