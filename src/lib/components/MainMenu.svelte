@@ -4,30 +4,34 @@
     export let menuItems: MenuItem[] = [];
 </script>
 
-<style>
-    nav {
-        padding: 1rem;
-        text-align: center;
-    }
+<style lang="scss">
+  nav {
+    padding: 1rem;
+    text-align: center;
+  }
 
-    ul {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-        display: flex;
-        justify-content: center;
-    }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
 
-    li {
-        margin: 0 1rem;
-    }
+  li {
+    margin: 0 1rem;
+  }
 
-    a {
-        color: #fff;
-        text-decoration: none;
-        font-weight: bold;
-        font-size: 1.2rem;
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: var(--color-menu);
+    transition: color 0.2s ease-in-out;
+    &:hover {
+      color: var(--color-menu-hover);
     }
+  }
 </style>
 
 <nav>

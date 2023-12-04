@@ -1,0 +1,29 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --side-padding: 94px;
+
+    --color-border: #ccc;
+
+    --color-text: #333;
+    --color-background: #fff;
+    --color-menu: #333;
+    --color-menu-hover: #666;
+    --color-link: #3498db;
+    --color-link-hover: #3498db;
+    --color-button-text: #fff;
+    --color-button-background: #3498db;
+    --color-button-text-hover: #fff;
+    --color-button-background-hover: #3498db;
+}
+
+.reverse {
+    --color-text: #fff;
+    --color-link: #fff;
+    --color-link-hover: #eee;
+    --color-border: #fff;
+    --color-header-text: #fff;
+    --color-header-background: #3498db;
+    --color-menu: #fff;
+    --color-menu-hover: #e8e8e8;
+}

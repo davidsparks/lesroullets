@@ -1,0 +1,20 @@
+$mq-breakpoints: (
+  xs:     0px,
+  sm:   480px,
+  mmd:  640px,
+  md:   960px,
+  mdl: 1040px,
+  mlg: 1120px,
+  lg:  1280px,
+  xl:  1800px,
+);
+$wrapper-width: map-get($mq-breakpoints, xl);
+$tight-wrappers: (
+  7: 480px,
+  6: 600px,
+  5: 760px,
+  4: 960px,
+  3: 1050px,
+  2: 1200px,
+  1: 1360px
+);
